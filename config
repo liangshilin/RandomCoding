@@ -1,0 +1,4 @@
+1.设置git proxy，在.ssh目录创建config文件
+linux下把connect.exe 替换为nc -x
+(1)git:  ProxyCommand connect.exe -S 127.0.0.1:10808 %h %p  (windows)
+(2)http: ProxyCommand connect.exe -S 127.0.0.1:10808 %h %p  (windows)
