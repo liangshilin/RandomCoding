@@ -1,0 +1,11 @@
+
+1.企业微信和钉钉告警推送支持
+2.邮件告警推送支持
+3.告警推送间隔频率发送
+微信：https://work.weixin.qq.com/help?doc_id=13376
+钉钉：https://developers.dingtalk.com/document/app/custom-robot-access
+
+4.监控日志和stdout，可配置异常消息正则表达式，检测出根据配置做操作(目前支持重启、告警推送)
+5.长时间无日志输出，可配置操作。
+6.邮件附带1M的日志
+7.
